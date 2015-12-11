@@ -1,0 +1,26 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:background="#8FE3A1"
+    tools:context="view.FirstFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="My name is anthony"
+        android:id="@+id/text_view"
+        />
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="Skip Info"
+        android:gravity="bottom"
+        android:id="@+id/bn2"
+        android:layout_gravity="center_horizontal" />
+
+</RelativeLayout>
