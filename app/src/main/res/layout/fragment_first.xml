@@ -1,7 +1,7 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="100dp"
+    android:layout_height="match_parent"
     android:background="#8FE3A1"
     tools:context="view.FirstFragment">
 
@@ -14,13 +14,12 @@
         android:gravity="center"
         android:text="My name is anthony"
         android:id="@+id/text_view"
+        android:visibility="invisible"
         />
-    <Button
-        android:layout_width="150dp"
+    <ImageView
+        android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:text="Skip Info"
-        android:gravity="bottom"
-        android:id="@+id/bn2"
-        android:layout_gravity="center_horizontal" />
+        android:id="@+id/image_view"
+        android:src="@drawable/first" />
 
 </RelativeLayout>
