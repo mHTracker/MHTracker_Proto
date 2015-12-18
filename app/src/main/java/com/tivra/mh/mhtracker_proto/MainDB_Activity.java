@@ -26,6 +26,7 @@ import java.util.HashMap;
 
 import util.PatientRepo;
 
+
 public class MainDB_Activity extends ListActivity implements android.view.View.OnClickListener{
 
     Button btnAdd,btnGetAll;
@@ -77,6 +78,8 @@ public class MainDB_Activity extends ListActivity implements android.view.View.O
         btnGetAll.setOnClickListener(this);
 
     }
+
+
 
 
 }

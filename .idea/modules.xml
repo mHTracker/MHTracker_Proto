@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/MHTracker_Proto.iml" filepath="$PROJECT_DIR$/MHTracker_Proto.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mhtracker_backend/mhtracker_backend.iml" filepath="$PROJECT_DIR$/mhtracker_backend/mhtracker_backend.iml" />
     </modules>
   </component>
 </project>
