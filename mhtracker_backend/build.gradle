@@ -32,6 +32,8 @@ appengine {
   downloadSdk = true
   appcfg {
     oauth2 = true
+      noCookies = true
+      email = "mh.inovation@gmail.com"
   }
   endpoints {
     getClientLibsOnBuild = true
